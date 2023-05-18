@@ -1,0 +1,35 @@
+a:link{
+    color: tomato;
+    text-decoration: none;
+    background-color: black;
+}
+
+a:visited{
+    color:whitesmoke
+}
+
+a:active{
+    background-color: teal;
+    padding: 10px;
+    margin: 1rem;
+}
+/* paso el mouse por encima */
+a:hover{
+    font-size: 2rem;
+}
+
+/* codigo de ejemplo dos */
+
+.parrafos p:last-child{
+    background-color: tomato;
+}
+
+.parrafoDos div:last-of-type{
+    color:tomato;
+}
+
+.lista :nth-child(-n+3){
+    background-color: tomato;
+}
+
+/* Irina delgado */
